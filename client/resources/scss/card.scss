@@ -1,0 +1,51 @@
+.card {
+  width: 340px;
+  cursor: pointer;
+
+  &__link,
+  &__title,
+  &__description,
+  &__technologies {
+    color: #fff;
+  }
+
+  &__link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 1px;
+      background-color: #fff;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 390px;
+    margin: 15px 0;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  &__description {
+    margin-bottom: 5px;
+  }
+
+  &__description,
+  &__technologies {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}

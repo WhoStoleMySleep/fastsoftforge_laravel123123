@@ -1,0 +1,91 @@
+body {
+  background: #1A1A1B;
+}
+
+.header {
+  background-color: #1A1A1B;
+
+  &__logo-telephone,
+  &__link{
+    color: #fff;
+  }
+
+  &__additional-text {
+    color: #767670;
+  }
+
+  &__configurator-link {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .special-select {
+    color: #F0485E;
+  }
+}
+
+.aside {
+  background: #1A1A1B;
+
+  &__button {
+    background: #fff;
+  }
+  
+  &__button-dot {
+    background-color: #000;
+  }
+
+  &__about {
+    color: #fff;
+  }
+}
+
+.main {
+  padding: 25px 0 100px 100px;
+
+  &__title {
+    margin: 0 0 40px 70px;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 65px;
+  }
+
+  &__left-title,
+  &__left-additionaly,
+  &__left-button {
+    color: #fff;
+  }
+
+  &__left-title,
+  &__left-additionaly {
+    margin-bottom: 10px;
+  }
+
+  &__left-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+
+  &__left-additionaly {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &__left-button {
+    display: flex;
+    width: 343px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+  }
+}
